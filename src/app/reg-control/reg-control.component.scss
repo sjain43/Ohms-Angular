@@ -1,0 +1,55 @@
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 07px;
+    margin: 15px 0 0px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+    border-radius: 15px 50px 30px;
+    margin-top: 0px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:2;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 07px 10px;
+    background-color: #f44336;
+    border-radius: 15px 50px;
+  }
+  .signupbtn {
+    padding: 07px 10px;
+    background-color: #4CAF50;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+    border-radius: 15px 50px;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 20px;
+    color:black;
+    margin-left: 10%;
+    border-radius: 15px 50px;
+  }
+  label{
+    margin-top: 15px;
+  }

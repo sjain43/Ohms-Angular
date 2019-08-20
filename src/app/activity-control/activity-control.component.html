@@ -1,0 +1,33 @@
+<div class="tag">
+    <h3>
+        User-Activity Check
+    </h3>
+</div>
+<div border="1px solid black">
+    <table class="tab1">
+        <tr style="color: rgb(9, 13, 248)">
+            <th>CustId</th>
+            <th>Custname</th>
+            <th>Custlname</th>
+            <th>Custpassw</th>
+            <th>Custemail</th>
+            <th>Custphone</th>
+            <th>Custstate</th>
+            <th>Custcity</th>
+            <th>Custpincode</th>
+            <th>Custhomeno</th>
+        </tr>
+    <tr *ngFor="let data of registration" style="color: white;">
+        <td><b>{{data.customerid}}</b></td>
+        <td><b>{{data.firstname}}</b></td>
+        <td><b>{{data.lastname}}</b></td>
+        <td><b>{{data.password}}</b></td>
+        <td><b>{{data.email}}</b></td>
+        <td><b>{{data.phone}}</b></td>
+        <td><b>{{data.state}}</b></td>
+        <td><b>{{data.city}}</b></td>
+        <td><b>{{data.pincode}}</b></td>
+        <td><b>{{data.homeno}}</b></td>
+        </tr>
+    </table>
+</div>

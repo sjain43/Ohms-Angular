@@ -1,0 +1,29 @@
+<title>BookStore.com</title>
+<div>
+  <img src="./assets/data/hotel.jpg" class="bg">
+</div>
+  <div class="Upper">
+    <h2>Online Hotel Booking</h2>
+    
+  </div>
+  <div class="Link">
+    <a href="">Hotels</a>
+    <a (click)="redirect()">Activity</a>
+    <a href="">Booking</a>
+    <a href="">Login</a>
+    <a (click)="Redirect()">Register</a>
+  </div>
+  <div class="vl">
+    <ol>
+    </ol>
+  </div>
+  <div class="hii1">
+    <ol>
+        <h2></h2>
+    </ol>
+  </div>
+  <div class="w3-container w3-tangerine" *ngIf = "!check" >
+    <p class="w3-jumbo" style="color: rgb(243, 19, 19)">Welcome To Online Hotel Booking</p>
+  </div>
+
+<router-outlet></router-outlet>
